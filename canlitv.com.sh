@@ -1,4 +1,11 @@
 #!/bin/bash
+#
+#  Author: Aysad Kozanoglu
+#   email: aysadx@gmail.com
+#
+#  description: only for testing to find a way to deft token based live stream links
+
+# link source  http://www.canlitv.com
 
 # wget to tmp && grep file && cut first " && cut last ",
 #wget -q -O tmp "https://www.canlitv.com/canli-atv" && \
