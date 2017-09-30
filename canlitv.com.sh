@@ -13,7 +13,9 @@
 
 tmp_file=$(mktemp)
 
-channels=("fox-tv" "canli-atv" "show-tv" "star-tv" "kanal-7" "canli-a-haber" "ntv" "halk-tv" "tlc" "canli-a2-izle" "kanala")
+channels=("ulusal-kanal" "fox-tv" "canli-atv" "show-tv" "kanal-7" "canli-a-haber"
+	  	"disney-channel" "tv-4" "trt-belgesel" 
+		"ntv" "halk-tv" "tlc" "canli-a2-izle" "kanala")
 
 
 for kanal in "${channels[@]}"
